@@ -1,0 +1,35 @@
+---
+title: "5. Productivity Tools"
+author: "cp"
+date: "October 20, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+r-rstudio-github
+
+# using Git common TASKs
+
+## git version control work flow
+
+pull :-> from remote repo transfer files to local repo
+
+add :-> from local working directory to stage 
+commit :-> from stage to local repo
+push :-> from local repo to remote repo
+
+## create a new repo for a project
+Usual steps
+1. login to github
+2. create a new repo
+3. copy the link of the repo (green button)
+4. in rstudio create a new project
+5. choose git svn for choose location windows
+6. in the url address past the above link
+
+
+
+
