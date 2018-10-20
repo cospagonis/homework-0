@@ -11,9 +11,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 r-rstudio-github
 
+usefull links:
+for file extenstions that we don't want to be transfered to remote repo. we add them in gitingnore
+more info in https://git-scm.com/docs/gitignore
+this files will not appeared in your rstudio git pane
+
 # using Git common TASKs
 
-## git version control work flow
+# setup Rstudio with github
+1. open a bash terminal
+2. run this commands
+  a. # git config --global user.name "your name"
+  b. # git config --global user.email "your email the same with github account"
+  
+
+## git version control workflow
 
 pull :-> from remote repo transfer files to local repo
 
